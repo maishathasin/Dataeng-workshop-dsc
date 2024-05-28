@@ -58,6 +58,7 @@ Follow these instructions https://dkangra.medium.com/apache-airflow-install-and-
 I have added the docker-compose and dockerfile for ease of use, it should just work when you ```docker compose up ```, make sure your docker is running in the background
 
 
+## if you don't have docker
 ### Install Apache Airflow
 
 ```bash
