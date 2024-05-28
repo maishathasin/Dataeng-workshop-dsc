@@ -59,6 +59,7 @@ I have added the docker-compose and dockerfile for ease of use, it should just w
 
 
 ## if you don't have docker
+Set up the virtual environment and follow the instructions below 
 ### Install Apache Airflow
 
 ```bash
