@@ -60,11 +60,18 @@ pip install apache-airflow
 ### Initialize the Airflow Database
 ```bash
 airflow db init
+
+airflow users create \
+    --username admin \
+    --firstname Admin \
+    --lastname User \
+    --role Admin \
+    --email admin@example.com
 ```
 
 ### Configure Airflow Home Directory to your current directory
 ```bash
-export AIRFLOW_HOME= .
+export AIRFLOW_HOME= . # its better to use ~airflow and save it in your home 
 source ~/.bashrc  # or source ~/.zshrc
 ```
 
