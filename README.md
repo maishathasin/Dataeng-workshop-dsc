@@ -51,6 +51,10 @@ Once the virtual environment is activated, you can proceed to install Apache Air
 
 ## Setting Up Apache Airflow
 
+### If you have docker installed follow 
+
+https://dkangra.medium.com/apache-airflow-install-and-configure-airflow-using-docker-891d1b604556
+
 ### Install Apache Airflow
 
 ```bash
