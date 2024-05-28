@@ -57,6 +57,11 @@ Once the virtual environment is activated, you can proceed to install Apache Air
 pip install apache-airflow
 ```
 
+### Configure Airflow Home Directory to your current directory
+```bash
+export AIRFLOW_HOME= . # its better to use ~airflow and save it in your home 
+source ~/.bashrc  # or source ~/.zshrc
+```
 ### Initialize the Airflow Database
 ```bash
 airflow db init
@@ -64,13 +69,6 @@ airflow db init
 airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
 
 ```
-
-### Configure Airflow Home Directory to your current directory
-```bash
-export AIRFLOW_HOME= . # its better to use ~airflow and save it in your home 
-source ~/.bashrc  # or source ~/.zshrc
-```
-
 
 ### Place Your DAG File
 Place your data_ingestion_dag.py file in the /dags directory. Verify the file is there:
