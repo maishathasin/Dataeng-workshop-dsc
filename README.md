@@ -61,12 +61,8 @@ pip install apache-airflow
 ```bash
 airflow db init
 
-airflow users create \
-    --username admin \
-    --firstname Admin \
-    --lastname User \
-    --role Admin \
-    --email admin@example.com
+airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+
 ```
 
 ### Configure Airflow Home Directory to your current directory
