@@ -1,45 +1,5 @@
 # Dataeng-workshop-dsc
 
-pip install apache-airflow
-airflow db init
-
-export AIRFLOW_HOME=~/airflow
-source ~/.bashrc  # or source ~/.zshrc
-
-
-Place your data_ingestion_dag.py file in the ~/airflow/dags directory. Verify the file is there:
-
-
-~/airflow/
-    ├── dags/
-    │   ├── data_ingestion_dag.py
-    ├── logs/
-    ├── plugins/
-    └── airflow.cfg
-
-
-[core]
-# The home folder for airflow, default is ~/airflow
-airflow_home = /path/to/airflow
-
-# The folder where your airflow pipelines live, most likely a
-# subfolder in a code repository
-# This path must be absolute
-dags_folder = /path/to/airflow/dags
-
-
-In two different terminals run this 
-airflow webserver --port 8080
-airflow scheduler
-
-
-
-
-
-
-
-
-
 
 
 ![Airflow](https://img.shields.io/badge/apache-airflow-017CEE.svg?logo=apache-airflow)
