@@ -20,6 +20,35 @@ git clone https://github.com/maishathasin/Dataeng-workshop-dsc.git
 
 ```
 
+
+## Setting Up a Virtual Environment
+
+Creating a virtual environment is a good practice to manage dependencies and avoid conflicts.
+
+### Create a Virtual Environment
+
+```bash
+python3 -m venv airflow-env
+```
+
+### Activate the Virtual Environment
+
+On macOS and Linux:
+
+```bash
+source airflow-env/bin/activate
+```
+
+On Windows:
+
+```bash
+airflow-env\Scripts\activate
+```
+
+
+Once the virtual environment is activated, you can proceed to install Apache Airflow and other dependencies.
+
+
 ## Setting Up Apache Airflow
 
 ### Install Apache Airflow
