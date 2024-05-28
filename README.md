@@ -83,10 +83,17 @@ airflow scheduler
 
 ## Installing PySpark 
 
- To install PySpark on Windows follow this: https://www.machinelearningplus.com/pyspark/install-pyspark-on-windows/
- To install PySpark on Mac follow this: https://www.machinelearningplus.com/pyspark/install-pyspark-on-mac/
+ To install PySpark on Windows follow this: 
+ 
+ https://www.machinelearningplus.com/pyspark/install-pyspark-on-windows/
+
+
+ To install PySpark on Mac follow this:
+ 
+  https://www.machinelearningplus.com/pyspark/install-pyspark-on-mac/
 
  Other systems:
+
  https://www.datacamp.com/tutorial/installation-of-pyspark (This has Mac, Windows and Linux instructions)
 
 
